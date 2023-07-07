@@ -1,0 +1,17 @@
+form>ul{
+    display: flex;
+    flex-direction: column;
+
+}
+form>ul>li{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    width: 30%;
+    padding: 3em;
+    background-color: rgba(128, 128, 128, 0.493);
+    margin: 0 auto;
+}
+
+

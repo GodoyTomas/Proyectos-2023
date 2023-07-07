@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    background-image: url("Imagenes/1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3em 1;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    background-color: rgba(128, 128, 128, 0.493);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 3em 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+#contenedor-carrousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 10px;
+    background-color: rgb(76, 68, 68);
+    padding: auto;
+    width: 50%;
+}
+
+#contenedor-carrousel::-webkit-scrollbar {
+    display: none;
+}
+
+#botones {
+    display: flex;
+    gap: 350px;
+    cursor: pointer;
+}
+footer {
+    background-color: rgba(128, 128, 128, 0.493);
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 3em 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.boton-registro {
+    font-weight: 700;
+}
